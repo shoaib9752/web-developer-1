@@ -205,3 +205,14 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* *footer */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 230px;
+    
+}
