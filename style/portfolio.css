@@ -179,7 +179,7 @@ main section {
     gap: 50px;
 }
 
-.resume-col hr{
+.resume-col hr {
     margin: 30px;
 }
 
@@ -201,7 +201,7 @@ main section {
     color: #757575;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
@@ -209,10 +209,35 @@ main section {
 
 /* *footer */
 
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     margin-top: 113px;
     padding: 130px 230px;
-    
+
 }
+
+
+.footer-col {
+    width: 50%;
+}
+
+.fillup input[type="text"], .fillup input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: 0px;
+    width: 100%;
+}
+
+.social-links a{
+    margin-right: 24px;
+}
+
+
